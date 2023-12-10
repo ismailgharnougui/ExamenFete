@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "o2P+MzFayRywmiBVP3o7wUOCSQrSSexkHELuFeP1QyupZVucupjWQGYTfq7zIPIQ4FwPUxSQFSoaxMXeJLQ5YA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ismae\\Videos\\SqueletteExamen\\ExamenImp\\Examen.ApplicationCore\\Examen.ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ismae\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,31 @@
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Examen.ApplicationCore.Domaine;
+
+namespace Examen.Infrastructure.Configuration
+{
+
+
+    public class InvitationConfiguration : IEntityTypeConfiguration<Invitation>
+    {
+        public void Configure(EntityTypeBuilder<Invitation> builder)
+        {
+
+            builder.HasKey(t => new
+            {
+                t.FeteFk,
+                t.InviteFk,
+                t.DateInvitation
+            }
+            );
+        }
+
+     
+    }
+
+}
